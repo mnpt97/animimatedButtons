@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="testComponents.css">
+    <title>Components</title>
+</head>
+<body>
+    
+    <!--Menu Button integration-->
+    <div id="menuButton" onclick = "theMenuButton.clicked()">
+        <div class="menuButtonBar"></div>
+        <div class="menuButtonBar"></div>
+        <div class="menuButtonBar"></div>
+    </div>
+
+    <!--Plus Button integration-->
+    <div class="plusButton" onclick = "thePlusButton1.clicked()">
+        <div class="plusButtonBar"></div>
+        <div class="plusButtonBar"></div>
+    </div>
+
+    <!--Another Plus Button: specification by var name in onclick-->
+    <div class="plusButton" onclick = "thePlusButton2.clicked()">
+        <div class="plusButtonBar"></div>
+        <div class="plusButtonBar"></div>
+    </div>
+
+
+    
+    <!--Script integration-->
+    <script src="menuButton.js"></script>
+    <script src="plusButton.js"></script>
+
+    <script src="integration.js"></script>
+
+</body>
+</html>
