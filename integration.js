@@ -15,7 +15,8 @@ let plusButtonStyle = {
     barColor: 'red',
     barBorderRadius: true,
     animationDuration: 15,
-    animationNum: 1
+    animationNum: 1,
+    round: false
 }
 let thePlusButton1 = new PlusButton(plusButtonStyle)
 
@@ -24,8 +25,9 @@ let plusButtonStyle2 = {
     classPositionPlusButton: 1,
     procentualBarHeight: 10,
     barColor: 'white',
-    barBorderRadius: true,
+    barBorderRadius: false,
     animationDuration: 15,
-    animationNum: 2
+    animationNum: 2,
+    round: true
 }
 let thePlusButton2 = new PlusButton(plusButtonStyle2)

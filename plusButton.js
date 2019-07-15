@@ -85,6 +85,7 @@ class PlusButton{
         this.butHeight = this.plusButton.offsetHeight;
         this.barHe = this.butHeight * (this.buttonStyle.procentualBarHeight/100)
         this.c = this.buttonStyle.barColor;
+        this.round = this.buttonStyle.round;
         this.clear = true
         this.i
         this.duration = this.buttonStyle.animationDuration;
@@ -101,6 +102,13 @@ class PlusButton{
     }
     styleButton(){
         this.plusButton.style.position = 'relative'
+        if(this.round){
+            this.plusButton.style.borderRadius = this.butHeight + 'px'
+            this.plusButton.style.borderStyle = 'solid';
+            this.plusButton.style.borderColor = this.c;
+            this.plusButton.style.borderWidth = this.barHe +'px';
+
+        }
     }
     bar(){
         for(this.i = 0; this.i < this.bars.length; this.i++){
