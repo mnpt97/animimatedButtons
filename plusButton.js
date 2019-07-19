@@ -101,7 +101,7 @@ class PlusButton{
         this.animation = this.animations[this.animationNum]
     }
     styleButton(){
-        this.plusButton.style.position = 'relative'
+        this.plusButton.style.position = this.buttonStyle.position
         if(this.round){
             this.plusButton.style.borderRadius = this.butHeight + 'px'
             this.plusButton.style.borderStyle = 'solid';

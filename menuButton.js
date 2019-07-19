@@ -18,7 +18,7 @@ class MenuButton{
         this.drawBar();
     }
     styleButton(){
-        this.menuButton.style.position = 'relative'
+        this.menuButton.style.position = this.buttonStyle.position
     }
     bar(){
         for(this.i = 0; this.i < this.bars.length; this.i++){
