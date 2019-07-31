@@ -1,0 +1,3 @@
+body,html{ width: 100%; overflow-x: hidden; margin: 0;}
+
+.slideshow{ width: 100%; height: 70%; position: relative; overflow:hidden; margin: 0 auto 0 auto }

@@ -1,0 +1,9 @@
+body{background-color: rgb(29, 156, 230); width: 100%; margin: 0; overflow-x: hidden;}
+
+#menuButton{height: 50px; width: 70px; margin: 30px; float: left}
+
+.plusButton{height: 50px; width: 50px;margin: 30px; float: left}
+
+.toggleButton{height: 30px; width: 80px; margin: 30px; float: left;}
+
+.slideshow{height: 300px; width: 100%;  position: relative; overflow-x: auto; display: flex; margin: 0 auto 0 auto }
