@@ -1,4 +1,4 @@
 body,html{ width: 100%;  margin: 0;}
 
 .slideshow{ width: 50%; height: 50%; position: relative; overflow:hidden; margin: 0 auto 0 auto; border-radius: 0 0 0px 0px}
-.slideshowWButtons{ width: 50%; height: 50%;position: relative; overflow:hidden; margin: 0 auto 0 auto; border-radius: 0 0 0px 0px}
+.slideshowWButtons{ width: 100%; height: 400px;position: relative; overflow: hidden; margin: 0 auto 0 auto; }
